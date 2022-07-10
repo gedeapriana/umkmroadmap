@@ -1,0 +1,42 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap');
+/*font-family: 'Fredoka One', cursive;*/
+/*font-family: 'Quicksand', sans-serif;*/
+
+/* Format all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variables */
+:root {
+    --thin: 400;
+    --bold: 700;
+    --primaryFont: 'Quicksand', sans-serif;
+    --brandFont: 'Fredoka One', cursive;
+    --greyColor: #cfdbd5;
+    --violetColor: #613dc1;
+    --blackFont: #242423;
+    --whiteFont: #ecf8f8;
+    --bgDark: #242423;
+    --buttonRadius: 5px;
+    --indexTop: 999;
+}
+
+/* Body Format */
+body {
+    font-family: var(--primaryFont);
+}
+/* Root */
+.root {
+    width: 100%;
+    height: 200vh;
+}
+
+/* Link Format */
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,14 @@
+.main-wrapper {
+    height: 100vh;
+    background: rgb(46,207,180);
+    background: linear-gradient(90deg, rgba(46,207,180,1) 0%, rgba(125,116,207,1) 100%);
+}
+
+/* Display Desktop */
+@media only screen and (max-width: 1180px) and (min-width: 637px) {
+}
+
+
+/* Display Mobile */
+@media only screen and (max-width: 636px) {
+}
