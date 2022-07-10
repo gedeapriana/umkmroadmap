@@ -3,7 +3,7 @@
     background: rgb(46,207,180);
     background: linear-gradient(90deg, rgba(46,207,180,1) 0%, rgba(125,116,207,1) 100%);
     background-size: 200%;
-    animation: mainAnimation 2s infinite alternate ease-in-out;
+    animation: mainAnimation 20s infinite alternate ease-in-out;
     display: flex;
     justify-content: center;
     align-items: center;
