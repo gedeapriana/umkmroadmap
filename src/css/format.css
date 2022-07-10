@@ -23,6 +23,8 @@
     --whiteFont: #ecf8f8;
     --bgLight: #ecf8f8;
     --bgDark: #353535;
+    --bgDanger: #ea4545;
+    --bgSky: #4fa4e1;
     --buttonRadius: 5px;
     --indexTop: 999;
 }
@@ -31,14 +33,28 @@
 body {
     font-family: var(--primaryFont);
 }
-/* Root */
 .root {
     width: 100%;
     height: 200vh;
 }
-
-/* Link Format */
 a {
     text-decoration: none;
 }
-
+.bg-dark {
+    background-color: var(--bgDark);
+}
+.gradient-color {
+    background: #7D74CF;
+    background: linear-gradient(to right,#2ECFB4 0%, #7D74CF 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg-light {
+    background-color: var(--whiteFont);
+}
+.bg-sky {
+    background-color: var(--bgSky);
+}
+.bg-danger {
+    background-color: var(--bgDanger);
+}

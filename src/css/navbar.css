@@ -5,15 +5,7 @@
 .container {
     width: 60%;
 }
-.bg-dark {
-    background-color: var(--bgDark);
-}
-.gradient-color {
-    background: #7D74CF;
-    background: linear-gradient(to right,#2ECFB4 0%, #7D74CF 100% );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 .navbar-wrapper {
     width: 100%;
@@ -85,7 +77,7 @@
 /* Display Mobile */
 @media only screen and (max-width: 636px) {
     #navbar-container {
-        width: 95%;
+        width: 90%;
     }
     .navbar-brand h1 {
         font-size: 1.5rem;
