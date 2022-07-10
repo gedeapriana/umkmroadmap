@@ -2,6 +2,19 @@
     height: 100vh;
     background: rgb(46,207,180);
     background: linear-gradient(90deg, rgba(46,207,180,1) 0%, rgba(125,116,207,1) 100%);
+    background-size: 200%;
+    animation: mainAnimation 2s infinite alternate ease-in-out;
+}
+
+/*Animating Main Sec*/
+@keyframes mainAnimation {
+    0% {
+        background-position: left;
+    }
+
+    100% {
+        background-position: right;
+    }
 }
 
 /* Display Desktop */
@@ -11,4 +24,8 @@
 
 /* Display Mobile */
 @media only screen and (max-width: 636px) {
+    .main-wrapper {
+        /*height: auto;*/
+        height: 100vh;
+    }
 }

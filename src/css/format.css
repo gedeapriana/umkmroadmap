@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 300ms ease-in-out;
 }
 
 /* variables */
@@ -20,7 +21,8 @@
     --violetColor: #613dc1;
     --blackFont: #242423;
     --whiteFont: #ecf8f8;
-    --bgDark: #242423;
+    --bgLight: #ecf8f8;
+    --bgDark: #353535;
     --buttonRadius: 5px;
     --indexTop: 999;
 }
