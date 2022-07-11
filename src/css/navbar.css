@@ -28,8 +28,10 @@
     font-family: var(--primaryFont);
 }
 .navbar-brand h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #ecf8f8;
+    font-family: var(--brandFont);
+    font-style: italic;
 }
 
 .navbar-list {
@@ -72,7 +74,7 @@
         font-size: 1.7rem;
     }
     .navbar-list ul {
-        gap: 0;
+        gap: 10px;
         justify-content: center;
     }
     .navbar-list ul li {

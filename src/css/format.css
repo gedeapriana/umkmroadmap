@@ -1,6 +1,7 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;500;600;700&display=swap');
-/*font-family: 'Fredoka One', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
 /*font-family: 'Quicksand', sans-serif;*/
 
 /* Format all elements */
@@ -16,7 +17,7 @@
     --thin: 400;
     --bold: 700;
     --primaryFont: 'Quicksand', sans-serif;
-    --brandFont: 'Fredoka One', cursive;
+    --brandFont: 'Poppins', sans-serif;
     --greyColor: #cfdbd5;
     --violetColor: #613dc1;
     --blackFont: #242423;
