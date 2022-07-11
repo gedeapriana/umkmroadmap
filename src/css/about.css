@@ -64,3 +64,40 @@
 .about-intro-img img {
     width: 70%;
 }
+
+@media only screen and (max-width: 1225px) and (min-width: 637px) {
+    #about-container {
+        width: 90%;
+    }
+    .about-intro-header h1 {
+        font-size: 1.7rem;
+    }
+    .about-intro-desc p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 636px) {
+    .about-intro-blank {
+        display: none;
+    }
+    #about-intro {
+        height: 800px;
+    }
+    .about-intro-header h1 {
+        font-size: 1.2rem;
+    }
+    .about-intro-desc-img {
+        flex-direction: column-reverse;
+    }
+    .about-intro-desc {
+        width: 100%;
+    }
+    .about-intro-desc p {
+        font-size: .9rem;
+        text-align: justify;
+    }
+    .about-intro-img {
+        width: 100%;
+    }
+}
