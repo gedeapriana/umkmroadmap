@@ -4,7 +4,7 @@
     align-items: center;
     height: auto;
 }
-#about-intro {
+.about-intro {
     height: 700px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,9 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
 }
 .about-intro-desc p {
     text-align: end;
@@ -53,6 +55,22 @@
 }
 .about-intro-desc p span {
     font-weight: bold;
+}
+.about-intro-desc form {
+    width: auto;
+    height: auto;
+}
+.about-intro-desc form input {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    background-color: var(--violetColor);
+    color: var(--whiteFont);
+    font-family: var(--primaryFont);
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--buttonRadius);
 }
 .about-intro-img {
     width: 50%;
@@ -87,11 +105,15 @@
     .about-intro {
         height: 800px;
     }
+    .about-intro-header {
+        height: 10%;
+    }
     .about-intro-header h1 {
         font-size: 1.2rem;
     }
     .about-intro-desc-img {
         flex-direction: column-reverse;
+        height: 80%;
     }
     .about-intro-desc {
         width: 100%;
