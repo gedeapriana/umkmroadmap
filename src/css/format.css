@@ -49,6 +49,12 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.gradient-color-inverted {
+    background: #7D74CF;
+    background: linear-gradient(to right, #7D74CF 0%, #2ECFB4 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .bg-light {
     background-color: var(--whiteFont);
 }
@@ -57,4 +63,10 @@ a {
 }
 .bg-danger {
     background-color: var(--bgDanger);
+}
+.bx-shadow {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0;
+}
+.tx-shadow {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }

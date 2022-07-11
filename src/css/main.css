@@ -47,11 +47,6 @@
     align-content: center;
     gap: 30px;
 }
-.card {
-    width: 225px;
-    height: 200px;
-    border-radius: 20px;
-}
 
 /*Animating Main Sec*/
 @keyframes mainAnimation {
@@ -72,7 +67,7 @@
     color: var(--whiteFont);
 }
 .container-typing p {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     overflow: hidden;
@@ -80,8 +75,8 @@
 .container-typing p span.typed-text {
     font-weight: bold;
     background-color: var(--violetColor);
-    padding: 5px 8px;
-    border-radius: 12px;
+    padding: 8px 8px;
+    border-radius: 5px;
 }
 .container-typing p span.cursor {
     display: inline-block;
@@ -98,6 +93,75 @@
     50% { background-color: transparent; }
     99% { background-color: transparent; }
     100% { background-color: #ccc}
+}
+
+/* Card */
+.card {
+    width: 225px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.card-image {
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+}
+.card-image img {
+    width: 100%;
+}
+.card-desc {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-desc-wrapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-desc-wrapper h1 {
+    font-size: 1.4rem;
+}
+.card-desc-wrapper p {
+    font-size: .9rem;
+    color: var(--blackFont);
+    font-weight: 500;
+}
+.card-submit {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-submit form {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.card-submit form input {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: var(--violetColor);
+    border: none;
+    color: var(--whiteFont);
+    font-family: var(--primaryFont);
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* Display Desktop */
@@ -141,6 +205,21 @@
         height: 100px;
     }
     .container-typing p {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .card {
+        flex-direction: row;
+    }
+    .card-image {
+        display: none;
+    }
+    .card-desc {
+        height: 100%;
+        width: 70%;
+    }
+    .card-submit {
+        height: 100%;
+        width: 30%;
     }
 }

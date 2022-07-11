@@ -14,6 +14,10 @@
 	<link rel="stylesheet" href="src/css/navbar.css">
 	<link rel="stylesheet" href="src/css/main.css">
 
+	<!-- Boxicon CSS-->
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
 </head>
 <body>
 	<div class="root" id="root">
@@ -23,15 +27,15 @@
 			<div class="container" id="navbar-container">
 
 				<div class="navbar-brand" id="navbar-brand">
-					<h1>umkmroadmap</h1>
+					<h1 class="tx-shadow">umkmroadmap</h1>
 				</div>
 
 				<div class="navbar-list" id="navbar-list">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Tentang</a></li>
-						<li><a href="#">Kontak</a></li>
-						<li><a href="#">Masuk</a></li>
+						<li class="tx-shadow"><a href="#"><i class='bx bx-home-heart'></i> Home</a></li>
+						<li class="tx-shadow"><a href="#"><i class='bx bx-edit-alt'></i> Tentang</a></li>
+						<li class="tx-shadow"><a href="#"><i class='bx bx-phone' ></i> Kontak</a></li>
+						<li class="bx-shadow tx-shadow"><a href="#"><i class='bx bx-log-in' ></i> Masuk</a></li>
 					</ul>
 				</div>
 
@@ -70,12 +74,107 @@
 
 				<div class="main-menu wrapper" id="main-menu">
 
-					<div class="kuliner card bg-light" id="kuliner"></div>
-					<div class="busana card bg-light" id="busana"></div>
-					<div class="otomotif card bg-light" id="otomotif"></div>
-					<div class="agribisnis card bg-light" id="agribisnis"></div>
-					<div class="tour-travel card bg-light" id="tour-travel"></div>
-					<div class="teknologi-internet card bg-light" id="teknologi-internet"></div>
+					<div class="kuliner card bg-light bx-shadow" id="kuliner">
+						<div class="card-image">
+							<img src="src/img/main/kuliner.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color">Kuliner <i class='bx bx-bowl-hot' ></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
+
+					<div class="busana card bg-light bx-shadow" id="busana">
+						<div class="card-image">
+							<img src="src/img/main/fashion.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color-inverted">Busana <i class='bx bxs-t-shirt' ></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
+
+					<div class="otomotif card bg-light bx-shadow" id="otomotif">
+						<div class="card-image">
+							<img src="src/img/main/otomotif.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color">Otomotif <i class='bx bx-color' ></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
+
+					<div class="agribisnis card bg-light bx-shadow" id="agribisnis">
+						<div class="card-image">
+							<img src="src/img/main/otomotif.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color-inverted">Agribisnis <i class='bx bxs-tree-alt' ></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
+
+					<div class="tour-travel card bg-light bx-shadow" id="tour-travel">
+						<div class="card-image">
+							<img src="src/img/main/otomotif.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color">Tour Travel <i class='bx bxs-car'></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
+
+					<div class="teknologi-internet card bg-light bx-shadow" id="teknologi-internet">
+						<div class="card-image">
+							<img src="src/img/main/otomotif.png" alt="">
+						</div>
+						<div class="card-desc">
+							<div class="card-desc-wrapper">
+								<h1 class="gradient-color-inverted">Internet <i class='bx bx-wifi-2' ></i></h1>
+								<p>Tahapan untuk membuka usaha kuliner</p>
+							</div>
+						</div>
+						<div class="card-submit">
+							<form action="index.html">
+								<input type="submit" value="Lihat Detail" />
+							</form>
+						</div>
+					</div>
 
 				</div>
 
