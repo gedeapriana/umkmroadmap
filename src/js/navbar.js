@@ -4,10 +4,10 @@ $(window).scroll(() => {
 
     if(windScrol > 0) {
         $('.navbar-wrapper').addClass('bg-dark');
-        $('.navbar-brand h1').addClass('gradient-color');
+        $('.navbar-brand h1').addClass('gradient-color').removeClass('tx-shadow');
     } else {
         $('.navbar-wrapper').removeClass('bg-dark');
-        $('.navbar-brand h1').removeClass('gradient-color');
+        $('.navbar-brand h1').removeClass('gradient-color').addClass('tx-shadow')
     }
 });
 

@@ -74,7 +74,6 @@
 }
 .container-typing p span.typed-text {
     font-weight: bold;
-    background-color: var(--violetColor);
     padding: 8px 8px;
     border-radius: 5px;
 }
@@ -200,26 +199,32 @@
     .main-desc {
         font-size: .9rem;
     }
-    .card {
-        width: 100%;
-        height: 100px;
-    }
     .container-typing p {
         font-size: 1rem;
     }
 
     .card {
         flex-direction: row;
+        width: 100%;
+        height: 100px;
     }
     .card-image {
         display: none;
     }
+    .card-desc-wrapper {
+        justify-content: center;
+    }
     .card-desc {
         height: 100%;
-        width: 70%;
+        width: 60%;
     }
     .card-submit {
         height: 100%;
-        width: 30%;
+        width: 40%;
+    }
+    .card-submit form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

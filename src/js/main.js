@@ -2,9 +2,9 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["datang di umkmroadmap 👋", "membuka usaha"];
-const typingDelay = 50;
-const erasingDelay = 75;
-const newTextDelay = 1500; // Delay between current and next text
+const typingDelay = 40;
+const erasingDelay = 20;
+const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
