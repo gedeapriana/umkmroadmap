@@ -9,14 +9,15 @@
 	<!-- favicon-->
 	<link rel="shortcut icon" href="src/img/favicon/rocket.png" type="image/x-icon">
 
-	<!-- ScrollReveal Js -->
-	<script src="https://unpkg.com/scrollreveal"></script>
+	<!-- Aos Js -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="src/css/format.css">
 	<link rel="stylesheet" href="src/css/navbar.css">
 	<link rel="stylesheet" href="src/css/main.css">
+	<link rel="stylesheet" href="src/css/about.css">
 
 	<!-- Boxicon CSS-->
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -37,7 +38,7 @@
 				<div class="navbar-list" id="navbar-list">
 					<ul>
 						<li class="tx-shadow"><a href="#"><i class='bx bx-home-heart'></i> Home</a></li>
-						<li class="tx-shadow"><a href="#"><i class='bx bx-edit-alt'></i> Tentang</a></li>
+						<li class="tx-shadow"><a href="#about-wrapper"><i class='bx bx-edit-alt'></i> Tentang</a></li>
 						<li class="tx-shadow"><a href="#"><i class='bx bx-phone' ></i> Kontak</a></li>
 						<li class="bx-shadow tx-shadow"><a href="#"><i class='bx bx-log-in' ></i> Masuk</a></li>
 					</ul>
@@ -187,6 +188,30 @@
 		</section>
 		<!-- Main Sec End-->
 
+		<!-- About -->
+		<section class="about-wrapper wrapper" id="about-wrapper">
+			<div class="container" id="about-container">
+
+				<div class="about-intro wrapper" id="about-intro">
+					<div class="about-intro-blank wrapper"></div>
+					<div class="about-intro-header wrapper" id="about-intro-header">
+						<h1 class="gradient-color">Apa itu UMKM?</h1>
+						<span data-aos="fade-up" data-aos-duration="1500"></span>
+					</div>
+					<div class="about-intro-desc-img wrapper">
+						<div data-aos="fade-right" data-aos-duration="1500" class="about-intro-desc" id="about-intro-desc">
+							<p>UMKM merupakan <span class="gradient-color">bisnis yang dijalankan individu, rumah tangga, atau badan usaha ukuran kecil</span>. Penggolongan UMKM didasarkan batasan omzet pendapatan per tahun, jumlah kekayaan aset, serta jumlah pegawai. Sedangkan yang tidak masuk kategori UMKM atau masuk dalam hitungan usaha besar, yaitu usaha ekonomi produktif yang dijalankan oleh badan usaha dengan total kekayaan bersih atau hasil penjualan tahunan lebih besar dari usaha menengah.</p>
+						</div>
+						<div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500" class="about-intro-img" id="about-intro-img">
+							<img src="src/img/about/question.svg" alt="Question">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- About End -->
+
 	</div>
 
 
@@ -195,7 +220,8 @@
 	<script src="src/js/jquery-3.6.0.js"></script>
 	<script src="src/js/navbar.js"></script>
 	<script src="src/js/main.js"></script>
-	<script src="src/js/scrollReveal.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="src/js/aos.js"></script>
 
 
 </body>

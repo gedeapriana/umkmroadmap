@@ -18,7 +18,7 @@
     --bold: 700;
     --primaryFont: 'Quicksand', sans-serif;
     --brandFont: 'Poppins', sans-serif;
-    --greyColor: #cfdbd5;
+    --greyColor: #e6e6e6;
     --violetColor: #613dc1;
     --blackFont: #242423;
     --whiteFont: #ecf8f8;
@@ -31,6 +31,9 @@
 }
 
 /* Body Format */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: var(--primaryFont);
 }
@@ -43,6 +46,12 @@ a {
 }
 .bg-dark {
     background-color: var(--bgDark);
+}
+.wrapper {
+    width: 100%;
+}
+.container {
+    width: 60%;
 }
 .gradient-color {
     background: #7D74CF;
