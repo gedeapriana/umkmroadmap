@@ -1,3 +1,5 @@
+
+// Typing Effect
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
@@ -38,4 +40,13 @@ function erase() {
 
 document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
     if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+
+// Parallax Effect on card
+$(window).scroll(() => {
+   let winScrol = this.scrollY;
+   $('.card').css({
+      'transform' : `translate(0px, ${winScrol / 4}px )`
+   });
 });
