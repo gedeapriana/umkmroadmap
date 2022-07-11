@@ -33,6 +33,12 @@
     color: var(--whiteFont);
     font-size: 1.2rem;
 }
+.main-desc p {
+    font-weight: 500;
+}
+.main-desc p span {
+    font-weight: bold;
+}
 .main-menu {
     height: 75%;
     display: flex;
@@ -73,6 +79,9 @@
 }
 .container-typing p span.typed-text {
     font-weight: bold;
+    background-color: var(--violetColor);
+    padding: 5px 8px;
+    border-radius: 12px;
 }
 .container-typing p span.cursor {
     display: inline-block;
