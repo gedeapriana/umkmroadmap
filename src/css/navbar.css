@@ -8,6 +8,7 @@
 
 
 .navbar-wrapper {
+    z-index: var(--indexTop);
     width: 100%;
     height: 70px;
     display: flex;
@@ -70,8 +71,15 @@
     .navbar-brand h1 {
         font-size: 1.7rem;
     }
+    .navbar-list ul {
+        gap: 0;
+        justify-content: center;
+    }
     .navbar-list ul li {
         font-size: 1rem;
+    }
+    .navbar-list ul li:nth-child(4) {
+        margin: 0 5px;
     }
 }
 
