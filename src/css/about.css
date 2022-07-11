@@ -78,10 +78,13 @@
 }
 
 @media only screen and (max-width: 636px) {
+    #about-container {
+        width: 80%;
+    }
     .about-intro-blank {
         display: none;
     }
-    #about-intro {
+    .about-intro {
         height: 800px;
     }
     .about-intro-header h1 {
