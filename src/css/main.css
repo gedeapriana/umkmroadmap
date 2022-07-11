@@ -126,10 +126,10 @@
     width: 90%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: start;
     flex-direction: column;
-    gap: 5px;
+    gap: 2px;
 }
 .card-desc-wrapper h1 {
     font-size: 1.4rem;
