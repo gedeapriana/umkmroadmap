@@ -46,7 +46,9 @@ document.addEventListener("DOMContentLoaded", function() { // On DOM Load initia
 // Parallax Effect on card
 $(window).scroll(() => {
    let winScrol = this.scrollY;
-   $('.card').css({
-      'transform' : `translate(0px, ${winScrol / 4}px )`
-   });
+   if($(window).width() > 636.9) {
+        $('.card').css({
+            'transform': `translate(0px, ${winScrol / 4}px )`
+        });
+    }
 });

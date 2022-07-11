@@ -80,3 +80,7 @@ a {
 .tx-shadow {
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
+.divider {
+    width: 100%;
+    height: 100px;
+}

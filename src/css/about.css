@@ -83,6 +83,53 @@
     width: 70%;
 }
 
+.about-criteria {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-criteria-header-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+}
+.about-criteria-header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.about-criteria-header h1 {
+    font-size: 2rem;
+}
+.about-criteria-header span {
+    width: 100px;
+    height: 6px;
+    background: linear-gradient(to right,#2ECFB4 0%, #7D74CF 100% );
+    border-radius: 3px;
+}
+.about-criteria-desc {
+    height: 80%;
+    width: 100%;
+}
+.about-criteria-img {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-criteria-img img {
+    width: 80%;
+}
+
 @media only screen and (max-width: 1225px) and (min-width: 637px) {
     #about-container {
         width: 90%;
@@ -124,5 +171,15 @@
     }
     .about-intro-img {
         width: 100%;
+    }
+
+    .about-criteria-img {
+        display: none;
+    }
+    .about-criteria-header-desc {
+        width: 100%;
+    }
+    .about-criteria-header h1 {
+        font-size: 1.2rem;
     }
 }

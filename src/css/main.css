@@ -9,9 +9,9 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    -webkit-box-shadow: inset 0px -66px 75px -69px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px -66px 75px -69px rgba(0,0,0,0.75);
-    box-shadow: inset 0px -66px 75px -69px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0 -66px 75px -69px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0 -66px 75px -69px rgba(0,0,0,0.75);
+    box-shadow: inset 0 -66px 75px -69px rgba(49, 30, 172, 0.75);
 }
 #main-container {
     height: 100%;
