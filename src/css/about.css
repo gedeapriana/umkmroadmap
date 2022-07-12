@@ -140,6 +140,7 @@
     flex-direction: column;
     border-radius: 30px;
     color: var(--whiteFont);
+    z-index: 99;
 }
 .criteria-point h1 {
     font-size: 1.2rem;

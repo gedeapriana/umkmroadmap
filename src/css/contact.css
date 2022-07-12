@@ -1,0 +1,16 @@
+.contact-wrapper {
+    height: 800px;
+    overflow: hidden;
+}
+.contact-wave {
+    position: absolute;
+    height: 400px;
+    margin-top: -10px;
+    overflow: hidden;
+}
+.contact-wave img {
+    position: absolute;
+}
+.contact-wave img:nth-child(2) {
+    margin-top: -70px;
+}
