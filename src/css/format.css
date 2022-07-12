@@ -65,6 +65,10 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bg-gradient {
+    background: rgb(46,207,180);
+    background: linear-gradient(90deg, rgba(125,116,207,1) 0%, rgba(46,207,180,1) 100%);
+}
 .bg-light {
     background-color: var(--whiteFont);
 }
