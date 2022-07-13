@@ -14,7 +14,7 @@ $(window).scroll(() => {
         });
 
         $('.contact-wave img:nth-child(2)').css({
-            'transform': `translate(-${waveScrol / 50}px, ${waveScrol / 40}px`
+            'transform': `translate(-${waveScrol / 50}px, ${waveScrol / 45}px`
         });
     }
 })
