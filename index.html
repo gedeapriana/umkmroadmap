@@ -40,7 +40,7 @@
 					<ul>
 						<li class="tx-shadow"><a href="#"><i class='bx bx-home-heart'></i> Home</a></li>
 						<li class="tx-shadow"><a href="#about-wrapper"><i class='bx bx-edit-alt'></i> Tentang</a></li>
-						<li class="tx-shadow"><a href="#"><i class='bx bx-phone' ></i> Kontak</a></li>
+						<li class="tx-shadow"><a href="#contact-form-container"><i class='bx bx-phone' ></i> Kontak</a></li>
 						<li class="bx-shadow tx-shadow"><a href="#"><i class='bx bx-log-in' ></i> Masuk</a></li>
 					</ul>
 				</div>
@@ -256,8 +256,21 @@
 			</div>
 			<div class="container" id="contact-container">
 				<div class="contact-form-container wrapper" id="contact-form-container">
-					<div class="left-side-form form-section bg-light" id="left-side-form"></div>
-
+					<div class="left-side-form form-section bg-light" id="left-side-form">
+						<div class="left-side-form-wrapper" id="left-side-form-wrapper">
+							<div class="left-side-image wrapper" id="left-side-image">
+								<img src="src/img/contact/contact.svg" alt="contact us">
+							</div>
+							<div class="left-side-contact bg-sky wrapper" id="left-side-contact"></div>
+							<div class="left-side-social wrapper" id="left-side-social">
+								<a class="gradient-color" href="#"><i class='bx bxl-whatsapp-square'></i></a>
+								<a class="gradient-color-inverted" href="#"><i class='bx bxl-instagram-alt'></i></a>
+								<a class="gradient-color" href="#"><i class='bx bxl-facebook-square'></i></a>
+								<a class="gradient-color-inverted" href="#"><i class='bx bxl-github'></i></a>
+								<a class="gradient-color" href="#"><i class='bx bxl-linkedin-square'></i></a>
+							</div>
+						</div>
+					</div>
 
 					<div class="right-side-form form-section bg-light" id="right-side-form">
 						<div class="right-side-form-wrapper" id="right-side-form-wrapper">
@@ -268,23 +281,23 @@
 							<div class="right-side-form-form wrapper" id="right-side-form-form">
 								<form action="" class="wrapper">
 
-									<div class="name-section input-form wrapper bg-danger" id="name-section">
-										<label for="name">Nama</label>
-										<input type="text" name="name" id="name" required>
+									<div class="name-section input-form wrapper" id="name-section">
+										<label class="gradient-color" for="name">Nama</label>
+										<input type="text" name="name" id="name" required placeholder="Masukkan Nama">
 									</div>
 
-									<div class="email-section input-form wrapper bg-sky" id="email-section">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" required>
+									<div class="email-section input-form wrapper" id="email-section">
+										<label class="gradient-color-inverted" for="email">Email</label>
+										<input type="email" name="email" id="email" required placeholder="Masukkan Email">
 									</div>
 
-									<div class="message-section message-form wrapper bg-danger" id="message-section">
-										<label for="message">Pesan</label>
-										<textarea name="message" id="message" required></textarea>
+									<div class="message-section message-form wrapper" id="message-section">
+										<label class="gradient-color" for="message">Pesan</label>
+										<textarea name="message" id="message" required placeholder="Masukkan Pesan"></textarea>
 									</div>
 
-									<div class="submit-section submit-form wrapper bg-dark" id="submit-section">
-										<input type="submit" value="Kirim Pesan">
+									<div class="submit-section submit-form wrapper" id="submit-section">
+										<input class="bg-gradient" type="submit" value="Kirim Pesan">
 									</div>
 								</form>
 							</div>
