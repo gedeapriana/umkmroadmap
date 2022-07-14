@@ -255,18 +255,38 @@
 				<img width="150%" src="src/img/wave/wave2.svg" alt="">
 			</div>
 			<div class="container" id="contact-container">
-				<div class="contact-form-container wrapper bg-sky" id="contact-form-container">
+				<div class="contact-form-container wrapper" id="contact-form-container">
 					<div class="left-side-form form-section bg-light" id="left-side-form"></div>
 
 
 					<div class="right-side-form form-section bg-light" id="right-side-form">
-						<div class="right-side-form-wrapper bg-dark" id="right-side-form-wrapper">
-							<div class="right-side-form-header wrapper bg-sky" id="right-side-form-header">
+						<div class="right-side-form-wrapper" id="right-side-form-wrapper">
+							<div class="right-side-form-header wrapper" id="right-side-form-header">
 								<h1 class="gradient-color">Hubungi Kami</h1>
 								<p>Untuk meminta penawaran atau ingin bertemu untuk minum kopi, hubungi kami langsung atau isi formulir dan kami akan segera menghubungi Anda kembali</p>
 							</div>
-							<div class="right-side-form-form wrapper bg-light" id="right-side-form-form">
+							<div class="right-side-form-form wrapper" id="right-side-form-form">
+								<form action="" class="wrapper">
 
+									<div class="name-section input-form wrapper bg-danger" id="name-section">
+										<label for="name">Nama</label>
+										<input type="text" name="name" id="name" required>
+									</div>
+
+									<div class="email-section input-form wrapper bg-sky" id="email-section">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required>
+									</div>
+
+									<div class="message-section message-form wrapper bg-danger" id="message-section">
+										<label for="message">Pesan</label>
+										<textarea name="message" id="message" required></textarea>
+									</div>
+
+									<div class="submit-section submit-form wrapper bg-dark" id="submit-section">
+										<input type="submit" value="Kirim Pesan">
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
