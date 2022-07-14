@@ -20,6 +20,10 @@
 .left-side-form-wrapper {
     width: 80%;
     height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .left-side-image {
     height: 60%;
@@ -31,7 +35,23 @@
     height: 100%;
 }
 .left-side-contact {
+    width: 70%;
     height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+}
+.left-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    user-select: none;
+    font-weight: bold;
+    color: var(--blackFont);
+    font-size: 1.1rem;
 }
 .left-side-social {
     height: 15%;
@@ -43,6 +63,7 @@
 .left-side-social a {
     font-size: 40px;
     transition: all .3s ease-in-out;
+    color: var(--violetColor);
 }
 .left-side-form-wrapper a:hover {
     transform: scale(1.2);

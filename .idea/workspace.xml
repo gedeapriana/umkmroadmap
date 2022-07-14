@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3dbaaa9-047d-4880-af7f-3a17c47840b9" name="Changes" comment="Fix contact form 🌈" />
+    <list default="true" id="a3dbaaa9-047d-4880-af7f-3a17c47840b9" name="Changes" comment="Fix contact form 🌈">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/format.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/format.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +78,7 @@
       <workItem from="1657714393786" duration="456000" />
       <workItem from="1657724375526" duration="4358000" />
       <workItem from="1657761425430" duration="11686000" />
-      <workItem from="1657813655821" duration="403000" />
+      <workItem from="1657813655821" duration="2004000" />
     </task>
     <task id="LOCAL-00001" summary="Fix contact form 🌈">
       <created>1657763683149</created>
